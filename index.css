@@ -7,22 +7,15 @@ body{
     color: white!important;
     background-color: black!important;
 }
+
+/* navbar */
 .nav{
     position: fixed!important;
     background-color: black!important;
-    /* color: white!important; */
-    /* margin-left: 25%; */
     width: 100%;
 }
-
-/* .navbar{
-    position: fixed;
-    border-radius: 25px;
-    background-color: blue!important;
-} */
 #named{
     color: gold!important;
-    /* background-clip: linear-gradient(to right, deeppink 45%, gold 70%, lightcoral 80%)!important; */
     font-weight: 800;
     margin-left: 50px!important;
 }
@@ -30,27 +23,22 @@ body{
     background-color: red;
     border-radius: 10px;
 }
-
 .home,.abt,.cer,.con,.portfolio,.skills,.edu{
     min-height: 100vh;
 }
-
 .heading{
     text-align: center;
     color: red;
-    /* margin: 0px 0px 75px; */
     padding: 75px 0px 50px;
 }
 
 /* home */
-
 .home{
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
     gap: 100px;
     padding-top: 175px;
-    /* background-color: bisque; */
 }
 .home img{
     border-radius: 50%;
@@ -64,21 +52,7 @@ body{
 .home h1{
     margin: 15px 0px 15px;
     color: red;
-    /* animation-name: name;
-    animation-duration: 2s;*/
 } 
-/* @keyframes name {
-    0%{
-        opacity: 0;
-        transform: translateX(0%);
-        
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0%);
-    }
-    
-} */
 .home button{
     padding: 10px 25px;
     border-radius: 10px;
@@ -86,24 +60,20 @@ body{
     border: none;
     background-color: greenyellow;
     color: blue;
-    /* border: 2px solid red; */
     font-weight: 750;   
 }
 .home button:hover{
     background-color: white;
     border: 2px solid red;
     color: red;
-    /* border: none; */
 }
 
 /* about me */
-
 .about{
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
     padding: 0px 0px 0px 50px;
-    /* background-color: aqua; */
 }
 .about h1{
     color: darkcyan;
@@ -136,9 +106,6 @@ body{
 }
 
 /* education */
-.edu{
-    /* background-color: aquamarine; */
-}
 .education{
     display: flex;
     gap: 200px;
@@ -146,9 +113,6 @@ body{
 .education section{
     margin: 0px 0px 0px 150px;
 }
-/* .education ul{
-    color: red;
-} */
 .education section ul li{
     margin: 0px 0px 50px;
 }
@@ -158,19 +122,10 @@ body{
 }
 
 /* portfolio */
-/* .portfolio{
-    display: flex;
-    flex-wrap: wrap; 
-    padding-bottom: 50px;
-    background-color: bisque;
-} */
 .portfolio section{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    /* flex-wrap: wrap; */
     gap: 0px;
-    /* background-color: bisque; */
-    /* padding: 50px 0px; */
 }
 .portfolio img{
     margin-left: 25px;
@@ -186,32 +141,16 @@ body{
     border: 5px solid red;
 }
 
-/* certificate */
-
-/* .cer{
-    background-color: lightcoral;
-}
-.certificate{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    padding: 50px;
-} */
-
 /* skills */
 .skills .heading{
-    /* background-color: lawngreen; */
     margin-top: 100px;
 }
 .skills h2{
     display: flex;
     flex-direction: column;
-    /* gap: 50px; */
 }
 .skills input[type="range"]{
     width: 75%;
-    /* color: blue; */
-    /* padding: 25px; */
 }
 .skills section{
     display: grid;
@@ -219,6 +158,7 @@ body{
     gap: 50px;
     margin: 0px 0px 0px 150px;
 }
+
 /* contact */
 .con .heading{
     margin-top: 50px;
@@ -227,14 +167,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
-    /* background-color: blanchedalmond; */
 }
 .contact form{
     background-color: whitesmoke;
     border-radius: 10px;
     padding: 50px;
     margin: 25px 0px 0px 50px;
-    /* box-shadow: 5px 5px 5px black; */
 }
 .contact form button{
     padding: 10px 25px;
@@ -278,6 +216,7 @@ form button:hover{
     margin: 0px 0px 25px 0px;
 }
 
+/* media query */
 @media screen and (min-width:320px) and (max-width:606px){
     #named{
         margin-left: 10px!important;
